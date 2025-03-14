@@ -59,3 +59,25 @@ public class Calculadora {
        }
     }
 
+public class Somar {
+    public double calcular(double num1, double num2) {
+        return num1 + num2;
+    }
+}
+
+public class Multiplicar {
+    public double calcular (double num1, double num2){
+        return num1 * num2;
+    }
+}
+public class Dividir {
+    public double calcular (double num1,  double num2){
+        return num1 / num2;
+    }
+}
+public class Subtrair {
+    public double calcular (double num1, double num2){
+        return num1 - num2;
+    }
+}
+
